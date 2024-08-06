@@ -71,7 +71,7 @@ public class UserGUI extends JFrame implements WindowListener {
 	private GUI gui;
 	
 	public UserGUI(String imei, GUI gui) {
-		setIconImage(Toolkit.getDefaultToolkit().getImage(UserGUI.class.getResource("/gui/res/androrat_logo_32pix.png")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(UserGUI.class.getResource("/gui/res/AndoidRAT_logo_32pix.png")));
 		this.imei = imei;
 		this.gui = gui;
 		

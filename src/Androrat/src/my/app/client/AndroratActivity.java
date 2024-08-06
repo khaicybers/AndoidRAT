@@ -4,7 +4,7 @@ import my.app.client.R;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class AndroratActivity extends Activity {
+public class AndoidRATActivity extends Activity {
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {

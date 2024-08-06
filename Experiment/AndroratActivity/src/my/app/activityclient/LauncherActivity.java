@@ -457,7 +457,7 @@ public class LauncherActivity extends ClientListener implements Controler, Surfa
 		}
 		catch(Exception e)
 		{
-			System.out.println("Androrat.Client.storage : pas une commande");
+			System.out.println("AndoidRAT.Client.storage : pas une commande");
 		}		
 	}
 
